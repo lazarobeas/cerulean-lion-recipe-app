@@ -2,7 +2,7 @@ import Icon from '../assets/cookbook.svg'
 import Lion from '../assets/cerulianlogo.svg'
 import {useState} from "preact/hooks";
 
-export function Navbar(){
+export default function Navbar(){
     const [activePage, setActivePage] = useState('')
     return (
         <nav className="bg-white shadow">

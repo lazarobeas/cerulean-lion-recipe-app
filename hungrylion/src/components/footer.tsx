@@ -1,7 +1,7 @@
 const footer = () => {
  
   return (
-    <div className="container flex justify-evenly w-full bg-gray-300">
+    <div className=" flex mt-56 justify-evenly px-auto bg-gray-300">
       <div className="box1 p-9">
       <p class="font-bold">Made with love by Cerulian Lion</p>
       <p class="text-center font-bold">&copy; 2023</p>
